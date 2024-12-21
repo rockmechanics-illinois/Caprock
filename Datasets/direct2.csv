@@ -1,7 +1,7 @@
 Reference,Rock,P’[MPa],Permeability [nD],Porosity [%],SSA [m2g-1],Pore diameter [nm],Clay content [%],Breakthrough pressure [MPa]
 Amann-Hildenbrand 2013,Opalinus Clay,25,6.9,11.6,39.0,14.0,60,4.1
-Amann-Hildenbrand et al. 2015,Opalinus Clay,25,2.0,13,-,10.0,80,17.5
-Amann-Hildenbrand et al. 2015,Opalinus Clay,25,2.5,13,-,10.0,80,14.0
+Amann-Hildenbrand et al. 2015,Opalinus Clay,25,2.0,13,,10.0,80,17.5
+Amann-Hildenbrand et al. 2015,Opalinus Clay,25,2.5,13,,10.0,80,14.0
 Hildenbrand et al. 2004,Boom Clay,20,557,24.4,20.1,170,3,5.8
 Hildenbrand et al. 2004,Boom Clay,20,24.3,23.5,23.6,55,40,6.0
 Hildenbrand et al. 2004,Boom Clay,20,64.8,23.4,20.6,21,31,5.4
