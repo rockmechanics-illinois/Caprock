@@ -1,4 +1,4 @@
-**Breakthrough Pressure Prediction**
+# **Breakthrough Pressure Prediction**
 
 This repository contains datasets, scripts, and machine learning workflows for analyzing and predicting breakthrough pressure based on rock properties. The repository is structured to facilitate exploratory data analysis, machine learning experiments, and physics-informed modeling to improve predictions of breakthrough pressure.
 
@@ -58,12 +58,14 @@ Ensure you have the following software and libraries installed:
 
 1. **Exploratory Data Analysis**:
     - The **Exploratory Data Analysis.ipynb** notebook focuses on loading and exploring datasets (`direct1.csv`, `direct2.csv`, `indirect1.csv`, and `indirect2.csv`) to analyze breakthrough pressure predictions. It utilizes libraries like `pandas`, `numpy`, `matplotlib`, and `seaborn` for data manipulation and visualization, along with tools like `sklearn` and `xgboost` for potential machine learning tasks. The notebook previews the datasets, processes column names for consistency, and sets up the groundwork for visualizations and model-building experiments, integrating machine learning and deep learning frameworks like PyTorch.
+      - Python Notebook to run: `Exploratory Data Analysis.ipynb`
+      - Imports from: Datasets/
 
 2. **Data Preprocessing, Model Training and Evaluation**:
 
-    - The notebooks implement a complete pipeline for breakthrough pressure prediction. Preprocessing includes handling missing values, scaling features, renaming columns (e.g., `Pore radius [nm]` to `Pore diameter [nm]`), and removing outliers using Z-scores. Polynomial feature expansion and log transformation are applied where beneficial.
-
-    Models trained include Bayesian Ridge Regression, Gradient Boosting Regression (GBR), and a Physics-Informed Neural Network (PINN) with domain-specific loss functions. Oversampling techniques are applied to the indirect datasets to balance the data and tested on direct datasets to assess generalizability. Evaluation metrics like MSE, MAE, and \(R^2\) are used, along with visualizations such as residual plots and predicted vs. actual values. Bayesian methods further quantify uncertainty in predictions. This approach ensures robust and interpretable model performance.
+    - The notebooks implement a complete pipeline for breakthrough pressure prediction. Preprocessing includes handling missing values, scaling features, renaming columns (e.g., `Pore radius [nm]` to `Pore diameter [nm]`), and removing outliers using Z-scores. Polynomial feature expansion and log transformation are applied where beneficial. Models trained include Bayesian Ridge Regression, Gradient Boosting Regression (GBR), and a Physics-Informed Neural Network (PINN) with domain-specific loss functions. Oversampling techniques are applied to the indirect datasets to balance the data and tested on direct datasets to assess generalizability. Evaluation metrics like MSE, MAE, and \(R^2\) are used, along with visualizations such as residual plots and predicted vs. actual values. Bayesian methods further quantify uncertainty in predictions. This approach ensures robust and interpretable model performance.
+      - Python Notebook to run: `XGBoost.ipynb`, `Physics Informed Neural Network.ipynb`, `Simple Linear Regression.ipynb`, `Bayesian Methods.ipynb`, `Oversampling Methods Final.ipynb`
+      - Imports from: Datasets/
 
 
 3. **Visualization**:
